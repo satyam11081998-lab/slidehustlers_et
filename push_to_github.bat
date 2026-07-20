@@ -13,7 +13,7 @@ if errorlevel 1 (
 )
 
 git config user.name  >nul 2>&1 || git config --global user.name  "Satyam Kumar"
-git config user.email >nul 2>&1 || git config --global user.email "satyamkumarsk676@gmail.com"
+git config user.email >nul 2>&1 || git config --global user.email "satyam.11081998@gmail.com"
 
 if not exist ".git" git init
 git checkout -B main
