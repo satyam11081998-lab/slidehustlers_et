@@ -1,0 +1,146 @@
+{
+  "id": "vizag_replay",
+  "title": "Gas Release Incident Replay — Coke Oven Battery 4",
+  "description": "Composite incident scenario inspired by publicly reported investigations of coke-oven gas accidents in Indian heavy industry. A sub-threshold gas-main pressure drift, an incomplete shift handover, a single-point gas test, a confined-space entry, adjacent hot work, and a maintenance valve operation compound over eight hours into a fatal gas release at 10:30. Every individual signal stayed below — or was acknowledged away from — actionable single-sensor alarm levels until minutes before the event.",
+  "narrative": "Data present, but unacted upon. This replay demonstrates how six individually-explainable signals combine into a lethal compound risk that threshold alarms structurally cannot see.",
+  "start_clock": "02:00",
+  "duration_min": 600,
+  "seed_salt": "vizag-v1",
+  "shifts": [
+    { "name": "C", "label": "Night Shift C (22:00–06:00)", "from": 0, "to": 240, "supervisor": "R. Prasad", "crew_count": 14 },
+    { "name": "A", "label": "Morning Shift A (06:00–14:00)", "from": 240, "to": 600, "supervisor": "S. K. Murthy", "crew_count": 22 }
+  ],
+  "permits": [
+    {
+      "id": "PM-2088", "type": "General Maintenance", "zone": "cob3",
+      "title": "Battery 3 pusher car rail lubrication",
+      "from": 120, "to": 360, "crew": ["D. Rao", "M. Ali"],
+      "gas_test": null, "isolations": []
+    },
+    {
+      "id": "CSE-2093", "type": "Confined Space Entry", "zone": "cob4_basement",
+      "title": "Battery 4 gas-main inspection chamber — standpipe valve repair (WO-8812)",
+      "from": 270, "to": 600, "crew": ["K. Venkat", "P. Suri", "A. Naidu", "J. Kiran", "T. Ravi"],
+      "gas_test": { "t": 255, "ref": "GT-1121", "result": "PASS", "detail": "Single-point test at chamber entrance: CO 12 ppm, O2 20.8%, H2S nil. No test at chamber rear or riser side." },
+      "isolations": ["Electrical LOTO applied", "Gas-main isolation: NOT applied (inspection-only step planned)"]
+    },
+    {
+      "id": "HW-2101", "type": "Hot Work", "zone": "platform_p2",
+      "title": "Welding — handrail replacement, Battery 4 Platform P2",
+      "from": 390, "to": 600, "crew": ["S. Babu", "V. Teja", "fire watch: L. Swamy"],
+      "gas_test": { "t": 385, "ref": "GT-1124", "result": "PASS", "detail": "Spot test at work location: CO 11 ppm, LEL 0%." },
+      "isolations": ["Fire blanket + extinguisher staged"]
+    }
+  ],
+  "work_orders": [
+    {
+      "id": "WO-8807", "title": "Battery 3 pusher car rail lubrication", "zone": "cob3",
+      "kind": "preventive", "created": -1200, "started": 120, "completed": 300,
+      "notes": "Routine PM. No abnormalities reported."
+    },
+    {
+      "id": "WO-8812", "title": "Battery 4 collecting-main inspection chamber — standpipe valve repair", "zone": "cob4_basement",
+      "kind": "corrective", "created": 180, "started": 300, "completed": null,
+      "notes": "Backlog item, deferred twice. December internal audit noted 'pressure regulator PR-104 passing with observations' — repair scoped under this WO."
+    },
+    {
+      "id": "WO-8815", "title": "Throttle isolation valve V-707 for WO-8812 repair step", "zone": "gm_corridor",
+      "kind": "corrective", "created": 420, "started": 450, "completed": null,
+      "notes": "Partial closure to reduce flow through Battery 4 riser during chamber work."
+    }
+  ],
+  "ramps": [
+    { "sensor": "PT-GM-104", "t0": 30, "t1": 270, "to": 8.6 },
+    { "sensor": "PT-GM-104", "t0": 270, "t1": 390, "to": 9.05 },
+    { "sensor": "PT-GM-104", "t0": 390, "t1": 450, "to": 9.3 },
+    { "sensor": "PT-GM-104", "t0": 450, "t1": 495, "to": 9.7 },
+    { "sensor": "PT-GM-104", "t0": 495, "t1": 509, "to": 10.4 },
+    { "sensor": "PT-GM-104", "t0": 510, "t1": 516, "to": 4.2 },
+
+    { "sensor": "GD-CO4-203", "t0": 150, "t1": 330, "to": 18 },
+    { "sensor": "GD-CO4-203", "t0": 330, "t1": 390, "to": 45 },
+    { "sensor": "GD-CO4-203", "t0": 390, "t1": 455, "to": 46 },
+    { "sensor": "GD-CO4-203", "t0": 455, "t1": 468, "to": 56 },
+    { "sensor": "GD-CO4-203", "t0": 468, "t1": 509, "to": 190 },
+    { "sensor": "GD-CO4-203", "t0": 510, "t1": 518, "to": 320 },
+    { "sensor": "GD-CO4-203", "t0": 518, "t1": 560, "to": 150 },
+
+    { "sensor": "GD-CO4-204", "t0": 460, "t1": 505, "to": 58 },
+    { "sensor": "GD-CO4-204", "t0": 505, "t1": 509, "to": 75 },
+    { "sensor": "GD-CO4-204", "t0": 510, "t1": 516, "to": 260 },
+    { "sensor": "GD-CO4-204", "t0": 516, "t1": 560, "to": 120 },
+
+    { "sensor": "GD-CO4-206", "t0": 480, "t1": 509, "to": 28 },
+    { "sensor": "GD-CO4-206", "t0": 510, "t1": 514, "to": 90 },
+    { "sensor": "GD-CO4-206", "t0": 514, "t1": 560, "to": 40 },
+
+    { "sensor": "GD-CO4-201", "t0": 495, "t1": 509, "to": 26 },
+    { "sensor": "GD-CO4-201", "t0": 510, "t1": 515, "to": 70 },
+    { "sensor": "GD-CO4-201", "t0": 515, "t1": 560, "to": 30 },
+
+    { "sensor": "GD-H2S-302", "t0": 450, "t1": 509, "to": 4.2 },
+    { "sensor": "GD-H2S-302", "t0": 510, "t1": 540, "to": 8.0 },
+
+    { "sensor": "GD-CH4-402", "t0": 450, "t1": 509, "to": 5.0 },
+    { "sensor": "GD-CH4-402", "t0": 510, "t1": 516, "to": 14.0 },
+    { "sensor": "GD-CH4-402", "t0": 516, "t1": 560, "to": 6.0 },
+
+    { "sensor": "FT-GM-601", "t0": 450, "t1": 458, "to": 9800 },
+    { "sensor": "FT-GM-601", "t0": 510, "t1": 515, "to": 3000 },
+
+    { "sensor": "DP-CO4-801", "t0": 300, "t1": 450, "to": 0.75 },
+    { "sensor": "DP-CO4-801", "t0": 450, "t1": 509, "to": 1.35 },
+    { "sensor": "DP-CO4-801", "t0": 510, "t1": 520, "to": 0.2 },
+
+    { "sensor": "ZI-GM-707", "t0": 450, "t1": 452, "to": 45 },
+
+    { "sensor": "TT-CO4-502", "t0": 100, "t1": 220, "to": 1228 },
+    { "sensor": "TT-CO4-502", "t0": 220, "t1": 340, "to": 1198 },
+    { "sensor": "TT-CO3-505", "t0": 60, "t1": 180, "to": 1176 },
+    { "sensor": "TT-CO3-505", "t0": 300, "t1": 420, "to": 1204 }
+  ],
+  "spikes": [
+    { "sensor": "PT-GM-104", "t": 145, "to": 8.9, "duration": 8 },
+    { "sensor": "PT-GM-104", "t": 175, "to": 9.15, "duration": 5 },
+    { "sensor": "GD-CO4-203", "t": 150, "to": 26, "duration": 8 },
+    { "sensor": "GD-CO4-203", "t": 166, "to": 34, "duration": 6 },
+    { "sensor": "GD-CO4-203", "t": 182, "to": 29, "duration": 7 }
+  ],
+  "events": [
+    { "t": 30, "type": "ground_truth", "visible": false, "title": "PT-GM-104 sub-threshold upward drift begins", "detail": "Regulator PR-104 passing; back-pressure building slowly in Battery 4 riser leg.", "zone": "gm_corridor", "severity": "info" },
+    { "t": 120, "type": "permit", "visible": true, "title": "Permit PM-2088 activated — General Maintenance, Battery 3", "detail": "Pusher car rail lubrication. Crew of 2.", "zone": "cob3", "severity": "info" },
+    { "t": 178, "type": "operator_log", "visible": true, "title": "Transient high reading PT-GM-104 — cleared", "detail": "Momentary 9.15 kPa, returned to normal within minutes. Logged for maintenance review. No action taken.", "zone": "gm_corridor", "sensor": "PT-GM-104", "severity": "warn" },
+    { "t": 240, "type": "shift_change", "visible": true, "title": "Shift changeover C → A", "detail": "Handover note: 'Battery 4 WO-8812 scheduled today. Gas main pressures normal. Battery 3 PM ongoing.' — Overnight pressure drift and 04:58 transient NOT mentioned.", "severity": "warn" },
+    { "t": 255, "type": "gas_test", "visible": true, "title": "Gas test GT-1121 for CSE-2093: PASS", "detail": "Single-point test at chamber entrance: CO 12 ppm, O2 20.8%, H2S nil. Chamber rear / riser side not tested.", "zone": "cob4_basement", "severity": "info" },
+    { "t": 270, "type": "permit", "visible": true, "title": "Permit CSE-2093 activated — Confined Space Entry, Battery 4 inspection chamber", "detail": "Crew of 5 entering for standpipe valve repair (WO-8812). Gas-main isolation NOT applied — inspection-only step planned.", "zone": "cob4_basement", "severity": "warn" },
+    { "t": 300, "type": "work_order", "visible": true, "title": "WO-8812 started — Battery 4 inspection chamber", "detail": "Standpipe valve repair underway. Reference: December audit observation on regulator PR-104.", "zone": "cob4_basement", "severity": "info" },
+    { "t": 380, "type": "operator_log", "visible": true, "title": "GD-CO4-203 elevated vs morning average — assessed as drift", "detail": "Reading ~44 ppm against morning average 18 ppm. Adjacent GD-CO4-204 normal (9 ppm). Assessed as probable sensor drift; recalibration added to backlog.", "zone": "cob4_basement", "sensor": "GD-CO4-203", "severity": "warn" },
+    { "t": 385, "type": "operator_log", "visible": true, "title": "PT-GM-104 warning advisory acknowledged", "detail": "9.02 kPa. Acknowledged: 'Known drift — regulator PR-104 in WO-8812 scope, repair in progress.'", "zone": "gm_corridor", "sensor": "PT-GM-104", "severity": "warn" },
+    { "t": 390, "type": "permit", "visible": true, "title": "Permit HW-2101 activated — Hot Work, Battery 4 Platform P2", "detail": "Welding, handrail replacement. Fire watch posted. Work location ~20 m from Battery 4 basement vent shaft.", "zone": "platform_p2", "severity": "warn" },
+    { "t": 450, "type": "valve_op", "visible": true, "title": "Isolation valve V-707 throttled to 45% (WO-8815)", "detail": "Partial closure to reduce flow through Battery 4 riser during chamber work. Back-pressure on PT-GM-104 leg expected to rise.", "zone": "gm_corridor", "sensor": "ZI-GM-707", "severity": "warn" },
+    { "t": 460, "type": "alarm", "visible": true, "title": "ALARM: GD-CO4-203 — CO 52 ppm, Battery 4 basement", "detail": "First uncleared single-sensor alarm of the sequence. Crew advised to complete current task step and reassess.", "zone": "cob4_basement", "sensor": "GD-CO4-203", "severity": "alarm" },
+    { "t": 470, "type": "operator_log", "visible": true, "title": "Radio log: GD-CO4-204 now rising", "detail": "Second basement CO channel trending up — no longer explainable as single-sensor drift.", "zone": "cob4_basement", "sensor": "GD-CO4-204", "severity": "alarm" },
+    { "t": 492, "type": "alarm", "visible": true, "title": "ALARM: PT-GM-104 — 9.85 kPa HIGH", "detail": "Gas main pressure above high limit at Battery 4 riser.", "zone": "gm_corridor", "sensor": "PT-GM-104", "severity": "alarm" },
+    { "t": 495, "type": "alarm", "visible": true, "title": "HIGH ALARM: GD-CO4-203 — CO 118 ppm", "detail": "Basement chamber CO above high-high limit. Evacuation of confined space ordered.", "zone": "cob4_basement", "sensor": "GD-CO4-203", "severity": "high" },
+    { "t": 510, "type": "incident", "visible": true, "title": "⬛ INCIDENT MARKER — 10:30", "detail": "In the recorded composite event: gas ignition in the inspection chamber area during attempted egress. [Synthetic replay marker — this is where the timeline you are watching ended in reality.]", "zone": "cob4_basement", "severity": "high" },
+    { "t": 512, "type": "system", "visible": true, "title": "Replay complete", "detail": "Switch to the KAVACH view to see the compound-risk detection timeline and counterfactual intervention sequence.", "severity": "info" }
+  ],
+  "ground_truth": {
+    "incident_at": 510,
+    "hazard_onset": 270,
+    "kavach_expected_alert": 270,
+    "baseline_first_uncleared_alarm": 459,
+    "hazard_windows": [
+      { "start": 270, "end": 510, "zone": "cob4_basement", "label": "Occupied confined space with rising CO and gas-main overpressure on connected riser" }
+    ],
+    "contributing_factors": [
+      "Sub-threshold gas-main pressure drift from 02:30 (regulator PR-104 passing)",
+      "Transient pressure excursions acknowledged without trend review (04:25, 04:55)",
+      "Incomplete shift handover at 06:00 — drift not communicated",
+      "Single-point gas test for confined space entry (chamber rear untested)",
+      "Confined space entry without gas-main isolation at 06:30",
+      "Hot work permit issued 20 m from basement vent shaft at 08:30",
+      "Valve V-707 throttling at 09:30 accelerating back-pressure"
+    ]
+  }
+}

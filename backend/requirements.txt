@@ -1,0 +1,8 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+# Optional: only used by app.risk.explain when KAVACH_DETERMINISTIC=0 and an
+# OPENAI_API_KEY is set. The system runs fully without it (deterministic
+# template fallback), so it is safe to omit in constrained environments.
+openai>=1.0
+

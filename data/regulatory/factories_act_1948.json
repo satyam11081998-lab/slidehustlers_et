@@ -1,0 +1,58 @@
+{
+  "source": {
+    "code": "FA-1948",
+    "title": "The Factories Act, 1948",
+    "authority": "Government of India (Ministry of Labour & Employment); enforced by State Factory Inspectorates / DISH",
+    "revision": "Act No. 63 of 1948, as amended",
+    "url": "https://www.indiacode.nic.in/handle/123456789/1322",
+    "provenance": "Primary statute governing occupational safety in Indian factories (a coke-oven & by-products complex is a 'factory' under this Act). Clause texts below are faithful summaries of the public bare-act provisions, not a verbatim reproduction; verify against the official gazette copy before operational use.",
+    "note": "Chapter IV — Safety. Sections 36 and 37 are the confined-space and inflammable-gas provisions most directly engaged by the Battery-4 scenario."
+  },
+  "clauses": [
+    {
+      "ref": "S.36(1)",
+      "title": "Means of egress from confined spaces",
+      "summary": "No person shall be required or allowed to enter any chamber, tank, vat, pit, pipe, flue or other confined space in which gas, fume, vapour or dust is likely to be present to an extent involving risk of being overcome, unless it is provided with a manhole of adequate size or other effective means of egress.",
+      "topics": ["confined_space", "egress", "evacuation"],
+      "tags": ["confined space", "manhole", "egress", "means of escape", "chamber", "pit", "flue", "overcome"],
+      "rules": ["R1"],
+      "actions": ["evacuate", "raise"]
+    },
+    {
+      "ref": "S.36(2)",
+      "title": "No confined-space entry without gas removal, competent-person certificate or breathing apparatus",
+      "summary": "No person shall enter such a confined space until all practicable measures have been taken to remove gas, fume, vapour or dust and bring it within permissible limits, and unless either (a) a competent person has certified in writing, on the basis of a test carried out by himself, that the space is reasonably free from dangerous gas/fume/vapour/dust, or (b) the person wears suitable breathing apparatus and a belt securely attached to a rope whose free end is held by a person outside the space.",
+      "topics": ["confined_space", "gas_test", "isolation", "standby"],
+      "tags": ["confined space entry", "competent person", "certificate", "gas test", "breathing apparatus", "standby", "rope", "permissible limits", "dangerous fumes"],
+      "rules": ["R1", "R3", "R5"],
+      "actions": ["suspend_permit", "verify_isolation", "re_test", "raise"]
+    },
+    {
+      "ref": "S.36A",
+      "title": "Portable electric light / apparatus in confined spaces",
+      "summary": "Where work is done in a confined space and inflammable gas, fume or dust may be present, no portable electric light or other electric apparatus of voltage exceeding 24 volts shall be permitted, and only flame-proof lamps/apparatus may be used where such gas may be present — i.e. ignition sources must be controlled.",
+      "topics": ["hot_work", "ignition_source", "confined_space"],
+      "tags": ["ignition source", "flame proof", "electric apparatus", "24 volts", "inflammable gas", "hot work"],
+      "rules": ["R2"],
+      "actions": ["suspend_permit"]
+    },
+    {
+      "ref": "S.37(3)",
+      "title": "Opening plant/pipe containing inflammable gas under pressure",
+      "summary": "Where any part of the plant or a pipe contains explosive or inflammable gas or vapour under pressure greater than atmospheric, that part shall not be opened until all practicable measures have been taken to reduce the pressure of the gas/vapour to atmospheric, and effective measures taken to prevent inflammable gas/vapour from entering the part until it is re-secured.",
+      "topics": ["isolation", "pressure", "back_pressure", "gas_main"],
+      "tags": ["inflammable gas", "pressure above atmospheric", "reduce pressure", "isolation", "gas main", "riser", "standpipe", "depressurise"],
+      "rules": ["R3", "R6"],
+      "actions": ["verify_isolation", "isolate_gas_main"]
+    },
+    {
+      "ref": "S.37(4)",
+      "title": "Hot work on plant that contains or has contained inflammable substance",
+      "summary": "No plant, tank or vessel which contains or has contained any explosive or inflammable substance shall be subjected to any welding, brazing, soldering or cutting operation involving the application of heat unless adequate measures have first been taken to remove the substance and any fumes, or to render them non-explosive / non-inflammable.",
+      "topics": ["hot_work", "gas_proximity", "ignition_source"],
+      "tags": ["welding", "brazing", "cutting", "hot work", "inflammable substance", "application of heat", "fumes", "non-inflammable"],
+      "rules": ["R2"],
+      "actions": ["suspend_permit"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": {
+    "code": "DGMS",
+    "title": "DGMS Guidance — Gas Testing, Continuous Monitoring & Confined Working",
+    "authority": "Directorate General of Mines Safety (DGMS), Ministry of Labour & Employment, Government of India",
+    "revision": "Mines Act 1952 framework; Coal Mines Regulations (CMR) 2017; DGMS (Tech.) Circulars",
+    "url": "https://www.dgms.gov.in/",
+    "provenance": "DGMS regulates safety in mines (not factories). Its gas-testing, competent-person and continuous-monitoring provisions are cited here by analogy because the Battery-4 inspection chamber is a confined, gas-liable working of exactly the kind DGMS provisions were written for, and the problem statement lists DGMS as a compliance dimension. Clause texts are faithful summaries; verify against the source circular/regulation before operational use.",
+    "note": "Included to give the compound engine a monitoring-and-competency lens alongside the Factories Act (statutory) and OISD (process good-practice) sources."
+  },
+  "clauses": [
+    {
+      "ref": "CMR-2017 (gas testing by competent persons)",
+      "title": "Gas testing before and during work by a certified competent person",
+      "summary": "Testing for inflammable and noxious gases in gas-liable workings shall be carried out before work begins and repeated during the work by a certified competent gas-testing person using approved detectors. A single check at one location and one time is inadequate where the atmosphere can change as work proceeds or as connected pressures shift.",
+      "topics": ["gas_test", "monitoring", "confined_space"],
+      "tags": ["gas testing", "competent person", "certified", "inflammable gas", "noxious gas", "approved detector", "before and during", "changing atmosphere"],
+      "rules": ["R3", "R5"],
+      "actions": ["re_test", "monitor", "verify_isolation"]
+    },
+    {
+      "ref": "DGMS continuous monitoring & auto-trip",
+      "title": "Continuous CH4/CO monitoring with automatic withdrawal thresholds",
+      "summary": "In gassy workings, continuous tele-monitoring of methane (CH4) and carbon monoxide (CO) shall be provided, with automatic cut-off of power and withdrawal of persons when CH4 reaches about 0.75% or noxious gas such as CO reaches about 50 ppm. The threshold response is a last-line trip: it reacts at the alarm limit, not to the trend building toward it.",
+      "topics": ["monitoring", "evacuation", "corroboration"],
+      "tags": ["continuous monitoring", "tele-monitoring", "methane", "carbon monoxide", "CO", "CH4", "0.75%", "50 ppm", "automatic cut-off", "withdrawal", "trip"],
+      "rules": ["R1", "R7"],
+      "actions": ["raise", "evacuate", "monitor"]
+    },
+    {
+      "ref": "DGMS (Tech.) Circular No. 4 of 2020",
+      "title": "Proactive prevention of inflammable-gas hazards",
+      "summary": "Where gas content is significant, inflammable-gas hazards shall be managed proactively — through advance monitoring and control — so that gas does not reach an ignition-capable accumulation, rather than relying on reaction once a dangerous concentration has already formed.",
+      "topics": ["gas_proximity", "back_pressure", "hot_work"],
+      "tags": ["inflammable gas", "proactive", "prevention", "accumulation", "ignition", "advance monitoring", "gas hazard"],
+      "rules": ["R2", "R6"],
+      "actions": ["suspend_permit", "isolate_gas_main"]
+    }
+  ]
+}

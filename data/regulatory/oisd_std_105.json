@@ -1,0 +1,58 @@
+{
+  "source": {
+    "code": "OISD-STD-105",
+    "title": "OISD-STD-105 — Work Permit System",
+    "authority": "Oil Industry Safety Directorate (OISD), Ministry of Petroleum & Natural Gas, Government of India",
+    "revision": "Revision I, September 2004",
+    "url": "https://www.oisd.gov.in/",
+    "provenance": "OISD standards are mandatory for the hydrocarbon (oil & gas) sector. Their permit-to-work, confined-space and hot-work provisions are widely adopted as good engineering practice across high-hazard process facilities, including coke-oven gas (COG) handling. Cited here by analogy for the COG complex; clause texts are faithful summaries, not verbatim.",
+    "note": "Defines the four permit classes — cold work, hot work, confined space / vessel entry, and electrical isolation — and the precautions each requires. References are to named provisions of the standard rather than sub-clause numbers."
+  },
+  "clauses": [
+    {
+      "ref": "Sec. Work Permit System (General)",
+      "title": "Documented permit-to-work with cross-checking of simultaneous jobs",
+      "summary": "All non-routine maintenance in a hazardous area shall be controlled by a documented work permit that identifies the job, the hazards, and the precautions, and is authorised by a competent issuer. The issuer must account for other simultaneous jobs in the vicinity so that one activity does not create a hazard for another; permits and their conditions must be communicated across shift handovers.",
+      "topics": ["permit", "coordination", "handover"],
+      "tags": ["work permit", "permit to work", "simultaneous jobs", "vicinity", "authorisation", "handover", "communication", "issuer"],
+      "rules": ["R2", "R4"],
+      "actions": ["suspend_permit", "notify", "raise"]
+    },
+    {
+      "ref": "Sec. Confined Space / Vessel Entry Permit",
+      "title": "Positive isolation, purging, gas testing and standby before entry",
+      "summary": "Entry into a confined space or vessel is permitted only after the equipment is positively isolated from all connected sources (blinding / spading / double-block-and-bleed), drained and purged, and gas-tested (hydrocarbons in %LEL, toxic gases in ppm, oxygen in %). A trained standby person shall be posted at the entry, and gas monitoring shall continue for the duration of the entry.",
+      "topics": ["confined_space", "isolation", "gas_test", "standby", "monitoring"],
+      "tags": ["confined space entry", "vessel entry", "positive isolation", "blinding", "double block and bleed", "purge", "gas test", "LEL", "oxygen", "standby person", "continuous monitoring"],
+      "rules": ["R1", "R3", "R5"],
+      "actions": ["suspend_permit", "verify_isolation", "re_test", "monitor"]
+    },
+    {
+      "ref": "Sec. Gas Testing",
+      "title": "Gas tests must represent the whole space and be repeated",
+      "summary": "Gas tests shall be representative of the entire confined space, including remote and rear pockets where heavier-than-air or trapped gas can accumulate, not a single point at the entrance. Testing shall be repeated at a defined frequency and after any interruption to the work or change in conditions.",
+      "topics": ["gas_test", "monitoring"],
+      "tags": ["gas testing", "representative sample", "rear pocket", "single point", "re-test", "frequency", "interruption", "accumulation"],
+      "rules": ["R5"],
+      "actions": ["re_test", "monitor"]
+    },
+    {
+      "ref": "Sec. Hot Work Permit",
+      "title": "Gas test below LEL and control of flammable sources before hot work",
+      "summary": "Hot work near hydrocarbon or flammable sources requires a gas test confirming the atmosphere is below the lower explosive limit, removal or isolation of nearby flammable sources, a posted fire watch, and continuous surveillance. Hot work shall not proceed where a flammable release is credible in the surrounding area.",
+      "topics": ["hot_work", "gas_proximity", "ignition_source"],
+      "tags": ["hot work", "welding", "LEL", "lower explosive limit", "fire watch", "flammable source", "surveillance", "credible release", "proximity"],
+      "rules": ["R2"],
+      "actions": ["suspend_permit"]
+    },
+    {
+      "ref": "Sec. Isolation",
+      "title": "Positive isolation — a closed valve alone is not isolation",
+      "summary": "Lines carrying hazardous fluids to equipment under maintenance or confined-space entry shall be positively isolated (blinding / spading / double-block-and-bleed). A single throttled or closed valve is not positive isolation, because it can pass, and throttling can raise back-pressure on the isolated leg.",
+      "topics": ["isolation", "back_pressure", "gas_main"],
+      "tags": ["positive isolation", "single valve", "throttle", "back pressure", "blinding", "double block and bleed", "passing valve", "gas main"],
+      "rules": ["R3", "R6"],
+      "actions": ["verify_isolation", "isolate_gas_main"]
+    }
+  ]
+}

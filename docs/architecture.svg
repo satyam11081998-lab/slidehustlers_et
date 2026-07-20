@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1060" viewBox="0 0 1920 1060">
+<rect x="0.0" y="0.0" width="1920.0" height="1060.0" rx="0" fill="#0b1226" opacity="1"/>
+<text x="60.0" y="62.0" font-size="34" fill="#eaf1fb" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">KAVACH — how it works</text>
+<text x="60.0" y="92.0" font-size="18" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Four data streams no plant system reads together  →  one reasoning core  →  an alert that proves itself</text>
+<text x="60.0" y="136.0" font-size="13" fill="#6a789c" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="3" opacity="1">WHAT IT READS</text>
+<rect x="60.0" y="150.0" width="320.0" height="98.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<path d="M95,199 L102,199 L106,190 L111,208 L116,194 L120,199 L129,199" stroke="#2fb8f0" stroke-width="2.4" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="156.0" y="192.0" font-size="20" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Sensors</text>
+<text x="156.0" y="218.0" font-size="14" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">34 tagged instruments</text>
+<line x1="380.0" y1="199.0" x2="452.0" y2="199.0" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="199.0" x2="445.5" y2="207.9" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="199.0" x2="445.5" y2="190.1" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<rect x="60.0" y="268.0" width="320.0" height="98.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<rect x="100.0" y="302.0" width="24.0" height="30.0" rx="3" fill="none" opacity="1" stroke="#2fb8f0" stroke-width="2"/>
+<rect x="106.0" y="298.0" width="12.0" height="7.0" rx="2" fill="#0b1226" opacity="1" stroke="#2fb8f0" stroke-width="2"/>
+<line x1="106.0" y1="313.0" x2="118.0" y2="313.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="106.0" y1="320.0" x2="118.0" y2="320.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="106.0" y1="327.0" x2="118.0" y2="327.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<text x="156.0" y="310.0" font-size="20" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Permits</text>
+<text x="156.0" y="336.0" font-size="14" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">who is inside, isolations</text>
+<line x1="380.0" y1="317.0" x2="452.0" y2="317.0" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="317.0" x2="445.5" y2="325.9" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="317.0" x2="445.5" y2="308.1" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<rect x="60.0" y="386.0" width="320.0" height="98.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<path d="M98,448 L116,430" stroke="#2fb8f0" stroke-width="3.4" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="121.0" cy="425.0" r="7.5" fill="none" opacity="1" stroke="#2fb8f0" stroke-width="3"/>
+<text x="156.0" y="428.0" font-size="20" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Work orders</text>
+<text x="156.0" y="454.0" font-size="14" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">what maintenance is open</text>
+<line x1="380.0" y1="435.0" x2="452.0" y2="435.0" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="435.0" x2="445.5" y2="443.9" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="435.0" x2="445.5" y2="426.1" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<rect x="60.0" y="504.0" width="320.0" height="98.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<circle cx="112.0" cy="553.0" r="14.0" fill="none" opacity="1" stroke="#2fb8f0" stroke-width="2.2"/>
+<path d="M112,545 L112,553 L119,557" stroke="#2fb8f0" stroke-width="2.2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="156.0" y="546.0" font-size="20" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Shift log</text>
+<text x="156.0" y="572.0" font-size="14" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">handover continuity</text>
+<line x1="380.0" y1="553.0" x2="452.0" y2="553.0" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="553.0" x2="445.5" y2="561.9" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="553.0" x2="445.5" y2="544.1" stroke="#28395f" stroke-width="2.2" opacity="0.75" stroke-linecap="round"/>
+<line x1="452.0" y1="199.0" x2="452.0" y2="553.0" stroke="#2fb8f0" stroke-width="2.6" opacity="0.55" stroke-linecap="round"/>
+<text x="360.0" y="636.0" font-size="14" fill="#6a789c" font-weight="400" text-anchor="end" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">today these live in four systems that do not talk</text>
+<rect x="500.0" y="150.0" width="760.0" height="560.0" rx="14" fill="#101a33" opacity="1" stroke="#2fb8f0" stroke-width="1.6"/>
+<text x="524.0" y="184.0" font-size="15" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="3" opacity="1">KAVACH CORE</text>
+<text x="524.0" y="206.0" font-size="13" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">deterministic — same input, same output, every run</text>
+<rect x="524.0" y="226.0" width="340.0" height="104.0" rx="10" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.2"/>
+<path d="M545,278 L552,278 L556,269 L561,287 L566,273 L570,278 L579,278" stroke="#2fb8f0" stroke-width="2.4" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="592.0" y="268.0" font-size="18" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Derived signals</text>
+<text x="592.0" y="292.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">trend · drift below limits</text>
+<text x="592.0" y="311.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">cross-channel corroboration</text>
+<rect x="896.0" y="226.0" width="340.0" height="104.0" rx="10" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.2"/>
+<rect x="922.0" y="263.0" width="24.0" height="30.0" rx="3" fill="none" opacity="1" stroke="#2fb8f0" stroke-width="2"/>
+<rect x="928.0" y="259.0" width="12.0" height="7.0" rx="2" fill="#0b1226" opacity="1" stroke="#2fb8f0" stroke-width="2"/>
+<line x1="928.0" y1="274.0" x2="940.0" y2="274.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="928.0" y1="281.0" x2="940.0" y2="281.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<line x1="928.0" y1="288.0" x2="940.0" y2="288.0" stroke="#2fb8f0" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<text x="964.0" y="268.0" font-size="18" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Operational context</text>
+<text x="964.0" y="292.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">permits · isolations · crew</text>
+<text x="964.0" y="311.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">gas-test quality · handovers</text>
+<line x1="880.0" y1="278.0" x2="896.0" y2="278.0" stroke="#28395f" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+<line x1="896.0" y1="278.0" x2="889.5" y2="286.9" stroke="#28395f" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+<line x1="896.0" y1="278.0" x2="889.5" y2="269.1" stroke="#28395f" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+<rect x="524.0" y="350.0" width="712.0" height="196.0" rx="10" fill="#141f3d" opacity="1" stroke="#2fb8f0" stroke-width="1.5"/>
+<text x="544.0" y="380.0" font-size="14" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">COMPOUND RISK ENGINE</text>
+<text x="544.0" y="402.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">asks one question no single alarm can: are these true at the same time?</text>
+<rect x="544.0" y="422.0" width="106.0" height="42.0" rx="7" fill="#2a1520" opacity="1" stroke="#ef4b58" stroke-width="1.6"/>
+<text x="554.0" y="442.0" font-size="15" fill="#ef4b58" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R1</text>
+<text x="554.0" y="456.0" font-size="9.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">gas trend + crew</text>
+<rect x="662.0" y="422.0" width="106.0" height="42.0" rx="7" fill="#101a33" opacity="1" stroke="#28395f" stroke-width="1.1"/>
+<text x="672.0" y="442.0" font-size="15" fill="#6a789c" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R2</text>
+<text x="672.0" y="456.0" font-size="9.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">hot work near gas</text>
+<rect x="780.0" y="422.0" width="106.0" height="42.0" rx="7" fill="#2a1520" opacity="1" stroke="#ef4b58" stroke-width="1.6"/>
+<text x="790.0" y="442.0" font-size="15" fill="#ef4b58" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R3</text>
+<text x="790.0" y="456.0" font-size="9.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">isolation missing</text>
+<rect x="898.0" y="422.0" width="106.0" height="42.0" rx="7" fill="#2a1520" opacity="1" stroke="#ef4b58" stroke-width="1.6"/>
+<text x="908.0" y="442.0" font-size="15" fill="#ef4b58" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R4</text>
+<text x="908.0" y="456.0" font-size="9.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">handover gap</text>
+<rect x="544.0" y="476.0" width="106.0" height="42.0" rx="7" fill="#2a1520" opacity="1" stroke="#ef4b58" stroke-width="1.6"/>
+<text x="554.0" y="496.0" font-size="15" fill="#ef4b58" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R5</text>
+<text x="554.0" y="510.0" font-size="9.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">single-point test</text>
+<rect x="662.0" y="476.0" width="106.0" height="42.0" rx="7" fill="#101a33" opacity="1" stroke="#28395f" stroke-width="1.1"/>
+<text x="672.0" y="496.0" font-size="15" fill="#6a789c" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R6</text>
+<text x="672.0" y="510.0" font-size="9.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">back-pressure</text>
+<rect x="780.0" y="476.0" width="106.0" height="42.0" rx="7" fill="#101a33" opacity="1" stroke="#28395f" stroke-width="1.1"/>
+<text x="790.0" y="496.0" font-size="15" fill="#6a789c" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R7</text>
+<text x="790.0" y="510.0" font-size="9.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">corroboration</text>
+<rect x="898.0" y="476.0" width="106.0" height="42.0" rx="7" fill="#101a33" opacity="1" stroke="#28395f" stroke-width="1.1"/>
+<text x="908.0" y="496.0" font-size="15" fill="#6a789c" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">R8</text>
+<text x="908.0" y="510.0" font-size="9.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">calibration</text>
+<text x="1100.0" y="394.0" font-size="11.5" fill="#6a789c" font-weight="700" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">ZONE RISK</text>
+<line x1="1049.6" y1="457.1" x2="1039.9" y2="454.6" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1050.3" y1="454.8" x2="1040.7" y2="451.9" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1051.0" y1="452.6" x2="1041.6" y2="449.3" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1051.8" y1="450.4" x2="1042.6" y2="446.7" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1052.7" y1="448.3" x2="1043.7" y2="444.1" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1053.8" y1="446.2" x2="1044.9" y2="441.6" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1054.9" y1="444.2" x2="1046.2" y2="439.2" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1056.1" y1="442.2" x2="1047.6" y2="436.8" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1057.4" y1="440.2" x2="1049.2" y2="434.5" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1058.7" y1="438.4" x2="1050.8" y2="432.3" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1060.2" y1="436.6" x2="1052.5" y2="430.1" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1061.7" y1="434.8" x2="1054.4" y2="428.0" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1063.3" y1="433.1" x2="1056.3" y2="426.0" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1065.0" y1="431.5" x2="1058.3" y2="424.1" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1066.8" y1="430.0" x2="1060.4" y2="422.3" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1068.6" y1="428.6" x2="1062.5" y2="420.6" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1070.5" y1="427.2" x2="1064.8" y2="419.0" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1072.4" y1="425.9" x2="1067.1" y2="417.4" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1074.4" y1="424.7" x2="1069.5" y2="416.0" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1076.5" y1="423.6" x2="1071.9" y2="414.7" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1078.6" y1="422.6" x2="1074.4" y2="413.5" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1080.7" y1="421.7" x2="1077.0" y2="412.4" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1082.9" y1="420.9" x2="1079.6" y2="411.5" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1085.1" y1="420.2" x2="1082.2" y2="410.6" stroke="#35c08a" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1087.3" y1="419.6" x2="1084.9" y2="409.9" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1089.6" y1="419.0" x2="1087.6" y2="409.3" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1091.9" y1="418.6" x2="1090.3" y2="408.8" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1094.2" y1="418.3" x2="1093.1" y2="408.4" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1096.5" y1="418.1" x2="1095.8" y2="408.1" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1098.8" y1="418.0" x2="1098.6" y2="408.0" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1101.2" y1="418.0" x2="1101.4" y2="408.0" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1103.5" y1="418.1" x2="1104.2" y2="408.1" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1105.8" y1="418.3" x2="1106.9" y2="408.4" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1108.1" y1="418.6" x2="1109.7" y2="408.8" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1110.4" y1="419.0" x2="1112.4" y2="409.3" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1112.7" y1="419.6" x2="1115.1" y2="409.9" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1114.9" y1="420.2" x2="1117.8" y2="410.6" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1117.1" y1="420.9" x2="1120.4" y2="411.5" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1119.3" y1="421.7" x2="1123.0" y2="412.4" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1121.4" y1="422.6" x2="1125.6" y2="413.5" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1123.5" y1="423.6" x2="1128.1" y2="414.7" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1125.6" y1="424.7" x2="1130.5" y2="416.0" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1127.6" y1="425.9" x2="1132.9" y2="417.4" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1129.5" y1="427.2" x2="1135.2" y2="419.0" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1131.4" y1="428.6" x2="1137.5" y2="420.6" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1133.2" y1="430.0" x2="1139.6" y2="422.3" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1135.0" y1="431.5" x2="1141.7" y2="424.1" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1136.7" y1="433.1" x2="1143.7" y2="426.0" stroke="#f5921f" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1138.3" y1="434.8" x2="1145.6" y2="428.0" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1139.8" y1="436.6" x2="1147.5" y2="430.1" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1141.3" y1="438.4" x2="1149.2" y2="432.3" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1142.6" y1="440.2" x2="1150.8" y2="434.5" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1143.9" y1="442.2" x2="1152.4" y2="436.8" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1145.1" y1="444.2" x2="1153.8" y2="439.2" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1146.2" y1="446.2" x2="1155.1" y2="441.6" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1147.3" y1="448.3" x2="1156.3" y2="444.1" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1148.2" y1="450.4" x2="1157.4" y2="446.7" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1149.0" y1="452.6" x2="1158.4" y2="449.3" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1149.7" y1="454.8" x2="1159.3" y2="451.9" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1150.4" y1="457.1" x2="1160.1" y2="454.6" stroke="#ef4b58" stroke-width="3.4" opacity="1.0" stroke-linecap="round"/>
+<text x="1100.0" y="474.0" font-size="34" fill="#ef4b58" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">100</text>
+<text x="1100.0" y="496.0" font-size="12" fill="#ef4b58" font-weight="700" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="1.5" opacity="1">CRITICAL</text>
+<rect x="524.0" y="566.0" width="712.0" height="60.0" rx="10" fill="#20160c" opacity="1" stroke="#f5921f" stroke-width="1.4"/>
+<line x1="543.0" y1="590.0" x2="577.0" y2="590.0" stroke="#f5921f" stroke-width="1.8" opacity="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M543,607 L556,607 L562,585 L568,607 L577,607" stroke="#f5921f" stroke-width="2.2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="592.0" y="591.0" font-size="15" fill="#f5921f" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">SINGLE-SENSOR BASELINE  —  runs in parallel, on the same data</text>
+<text x="592.0" y="613.0" font-size="13" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">one tag, one limit, no context. This is the comparator, built into the product.</text>
+<rect x="524.0" y="642.0" width="222.0" height="52.0" rx="9" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.2"/>
+<path d="M540,656 L540,680 L554,677 L568,680 L568,656 L554,659 Z" stroke="#a78bfa" stroke-width="2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="554.0" y1="659.0" x2="554.0" y2="677.0" stroke="#a78bfa" stroke-width="1.8" opacity="1" stroke-linecap="round"/>
+<text x="580.0" y="673.0" font-size="14.5" fill="#eaf1fb" font-weight="600" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Regulations</text>
+<rect x="762.0" y="642.0" width="222.0" height="52.0" rx="9" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.2"/>
+<path d="M805,668 a13,13 0 1,1 -4,-9" stroke="#f5921f" stroke-width="2.2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M798,655 L802,659 L797,663" stroke="#f5921f" stroke-width="2.2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M792,662 L792,669 L797,672" stroke="#f5921f" stroke-width="2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="818.0" y="673.0" font-size="14.5" fill="#eaf1fb" font-weight="600" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Near-miss history</text>
+<rect x="1000.0" y="642.0" width="222.0" height="52.0" rx="9" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.2"/>
+<line x1="1030.0" y1="655.0" x2="1030.0" y2="669.0" stroke="#35c08a" stroke-width="1.6" opacity="0.85" stroke-linecap="round"/>
+<line x1="1017.0" y1="674.0" x2="1030.0" y2="669.0" stroke="#35c08a" stroke-width="1.6" opacity="0.85" stroke-linecap="round"/>
+<line x1="1043.0" y1="674.0" x2="1030.0" y2="669.0" stroke="#35c08a" stroke-width="1.6" opacity="0.85" stroke-linecap="round"/>
+<line x1="1030.0" y1="655.0" x2="1017.0" y2="674.0" stroke="#35c08a" stroke-width="1.6" opacity="0.85" stroke-linecap="round"/>
+<line x1="1030.0" y1="655.0" x2="1043.0" y2="674.0" stroke="#35c08a" stroke-width="1.6" opacity="0.85" stroke-linecap="round"/>
+<circle cx="1030.0" cy="655.0" r="4.2" fill="#35c08a" opacity="1"/>
+<circle cx="1017.0" cy="674.0" r="4.2" fill="#35c08a" opacity="1"/>
+<circle cx="1043.0" cy="674.0" r="4.2" fill="#35c08a" opacity="1"/>
+<circle cx="1030.0" cy="669.0" r="4.2" fill="#35c08a" opacity="1"/>
+<text x="1056.0" y="673.0" font-size="14.5" fill="#eaf1fb" font-weight="600" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Knowledge graph</text>
+<line x1="1260.0" y1="450.0" x2="1316.0" y2="450.0" stroke="#2fb8f0" stroke-width="2.8" opacity="1" stroke-linecap="round"/>
+<line x1="1316.0" y1="450.0" x2="1309.5" y2="458.9" stroke="#2fb8f0" stroke-width="2.8" opacity="1" stroke-linecap="round"/>
+<line x1="1316.0" y1="450.0" x2="1309.5" y2="441.1" stroke="#2fb8f0" stroke-width="2.8" opacity="1" stroke-linecap="round"/>
+<text x="1330.0" y="136.0" font-size="13" fill="#6a789c" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="3" opacity="1">WHAT IT PRODUCES</text>
+<rect x="1330.0" y="150.0" width="530.0" height="150.0" rx="12" fill="#26121b" opacity="1" stroke="#ef4b58" stroke-width="1.7"/>
+<text x="1352.0" y="184.0" font-size="13" fill="#ef4b58" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">ALERT WITH ITS PROOF</text>
+<text x="1352.0" y="214.0" font-size="19" fill="#eaf1fb" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">06:30  ·  CRITICAL  ·  Battery 4 Basement</text>
+<text x="1352.0" y="242.0" font-size="14" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">4 rules · live values · permit CSE-2093 · 5 crew</text>
+<text x="1352.0" y="268.0" font-size="14" fill="#a78bfa" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">cites Factories Act S.36(2) · OISD-105 · DGMS</text>
+<rect x="1330.0" y="320.0" width="530.0" height="120.0" rx="12" fill="#141f3d" opacity="1" stroke="#35c08a" stroke-width="1.4"/>
+<text x="1352.0" y="352.0" font-size="13" fill="#35c08a" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">ORCHESTRATED RESPONSE</text>
+<circle cx="1382.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1382.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">1</text>
+<text x="1382.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">raise</text>
+<line x1="1399.0" y1="396.0" x2="1433.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1450.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1450.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">2</text>
+<text x="1450.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">suspend</text>
+<line x1="1467.0" y1="396.0" x2="1501.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1518.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1518.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">3</text>
+<text x="1518.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">isolate</text>
+<line x1="1535.0" y1="396.0" x2="1569.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1586.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1586.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">4</text>
+<text x="1586.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">notify</text>
+<line x1="1603.0" y1="396.0" x2="1637.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1654.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1654.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">5</text>
+<text x="1654.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">evacuate</text>
+<line x1="1671.0" y1="396.0" x2="1705.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1722.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1722.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">6</text>
+<text x="1722.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">re-test</text>
+<line x1="1739.0" y1="396.0" x2="1773.0" y2="396.0" stroke="#35c08a" stroke-width="1.4" opacity="0.6" stroke-linecap="round"/>
+<circle cx="1790.0" cy="396.0" r="17.0" fill="#0b1226" opacity="1" stroke="#35c08a" stroke-width="1.8"/>
+<text x="1790.0" y="402.0" font-size="15" fill="#35c08a" font-weight="800" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">7</text>
+<text x="1790.0" y="428.0" font-size="10.5" fill="#93a3c4" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">monitor</text>
+<rect x="1330.0" y="460.0" width="258.0" height="150.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<text x="1350.0" y="490.0" font-size="12.5" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">CONTROL ROOM</text>
+<rect x="1352.0" y="504.0" width="46.0" height="13.0" rx="3" fill="#35c08a" opacity="0.25" stroke="#35c08a" stroke-width="1"/>
+<rect x="1352.0" y="521.0" width="46.0" height="13.0" rx="3" fill="#35c08a" opacity="0.25" stroke="#35c08a" stroke-width="1"/>
+<rect x="1352.0" y="538.0" width="46.0" height="13.0" rx="3" fill="#f5921f" opacity="0.45" stroke="#f5921f" stroke-width="1"/>
+<rect x="1352.0" y="555.0" width="46.0" height="13.0" rx="3" fill="#ef4b58" opacity="0.8" stroke="#ef4b58" stroke-width="1"/>
+<rect x="1406.0" y="504.0" width="24.0" height="64.0" rx="3" fill="#2fb8f0" opacity="0.18" stroke="#2fb8f0" stroke-width="1"/>
+<rect x="1438.0" y="504.0" width="52.0" height="18.0" rx="3" fill="#35c08a" opacity="0.22" stroke="#35c08a" stroke-width="1"/>
+<rect x="1438.0" y="528.0" width="52.0" height="18.0" rx="3" fill="#35c08a" opacity="0.22" stroke="#35c08a" stroke-width="1"/>
+<text x="1350.0" y="596.0" font-size="11.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">live risk on the plant layout</text>
+<rect x="1602.0" y="460.0" width="258.0" height="150.0" rx="12" fill="#141f3d" opacity="1" stroke="#28395f" stroke-width="1.3"/>
+<text x="1622.0" y="490.0" font-size="12.5" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="2" opacity="1">AUTO REPORT</text>
+<path d="M1649,527 L1665,527 L1672,534 L1672,557 L1649,557 Z" stroke="#2fb8f0" stroke-width="2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1654.0" y1="539.0" x2="1667.0" y2="539.0" stroke="#2fb8f0" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1654.0" y1="545.0" x2="1667.0" y2="545.0" stroke="#2fb8f0" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<line x1="1654.0" y1="551.0" x2="1667.0" y2="551.0" stroke="#2fb8f0" stroke-width="1.6" opacity="1" stroke-linecap="round"/>
+<text x="1690.0" y="536.0" font-size="14" fill="#eaf1fb" font-weight="600" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">regulator-ready</text>
+<text x="1690.0" y="558.0" font-size="12.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">timeline · evidence</text>
+<text x="1690.0" y="578.0" font-size="12.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">citations · counterfactual</text>
+<text x="1622.0" y="602.0" font-size="11.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">generated by the system itself</text>
+<rect x="1330.0" y="630.0" width="530.0" height="64.0" rx="12" fill="#141f3d" opacity="1" stroke="#a78bfa" stroke-width="1.4"/>
+<path d="M1370,647 L1383,653 L1383,665 Q1383,675 1370,678 Q1357,675 1357,665 L1357,653 Z" stroke="#a78bfa" stroke-width="2" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1364,663 L1369,668 L1377,657" stroke="#a78bfa" stroke-width="2.4" fill="none" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1402.0" y="656.0" font-size="14" fill="#a78bfa" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="1.5" opacity="1">WHAT-IF CONSOLE</text>
+<text x="1402.0" y="678.0" font-size="13" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">restore a barrier → risk honestly falls. Judges drive it live.</text>
+<rect x="60.0" y="742.0" width="1800.0" height="252.0" rx="14" fill="#101a33" opacity="1" stroke="#28395f" stroke-width="1.4"/>
+<text x="88.0" y="780.0" font-size="14" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="3" opacity="1">THE RESULT, ON ONE MORNING</text>
+<text x="88.0" y="804.0" font-size="13.5" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">same plant, same data, two systems watching</text>
+<line x1="440.0" y1="862.0" x2="1560.0" y2="862.0" stroke="#28395f" stroke-width="2.5" opacity="1" stroke-linecap="round"/>
+<line x1="440.0" y1="856.0" x2="440.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="440.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">02:00</text>
+<line x1="664.0" y1="856.0" x2="664.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="664.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">04:00</text>
+<line x1="888.0" y1="856.0" x2="888.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="888.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">06:00</text>
+<line x1="1112.0" y1="856.0" x2="1112.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="1112.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">08:00</text>
+<line x1="1336.0" y1="856.0" x2="1336.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="1336.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">10:00</text>
+<line x1="1560.0" y1="856.0" x2="1560.0" y2="868.0" stroke="#6a789c" stroke-width="1.4" opacity="1" stroke-linecap="round"/>
+<text x="1560.0" y="890.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="middle" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">12:00</text>
+<rect x="944.0" y="804.0" width="448.0" height="22.0" rx="4" fill="#ef4b58" opacity="0.18"/>
+<text x="1168.0" y="820.0" font-size="12.5" fill="#ef4b58" font-weight="700" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">240 min — crew inside, exposed</text>
+<rect x="944.0" y="832.0" width="448.0" height="15.0" rx="3" fill="#2fb8f0" opacity="0.55"/>
+<text x="934.0" y="843.0" font-size="12.5" fill="#2fb8f0" font-weight="700" text-anchor="end" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">KAVACH warning stands</text>
+<rect x="1296.8" y="906.0" width="95.2" height="15.0" rx="3" fill="#f5921f" opacity="0.75"/>
+<text x="1286.8" y="918.0" font-size="12.5" fill="#f5921f" font-weight="700" text-anchor="end" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">baseline warning</text>
+<line x1="944.0" y1="798.0" x2="944.0" y2="924.0" stroke="#2fb8f0" stroke-width="2" opacity="0.9" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="944.0" cy="862.0" r="7.0" fill="#2fb8f0" opacity="1"/>
+<text x="944.0" y="946.0" font-size="13" fill="#2fb8f0" font-weight="700" text-anchor="middle" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">06:30  KAVACH detects</text>
+<line x1="1296.8" y1="798.0" x2="1296.8" y2="924.0" stroke="#f5921f" stroke-width="2" opacity="0.9" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="1296.8" cy="862.0" r="7.0" fill="#f5921f" opacity="1"/>
+<text x="1288.8" y="946.0" font-size="13" fill="#f5921f" font-weight="700" text-anchor="end" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">09:39  first alarm</text>
+<line x1="1392.0" y1="798.0" x2="1392.0" y2="924.0" stroke="#ef4b58" stroke-width="2" opacity="0.9" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="1392.0" cy="862.0" r="7.0" fill="#ef4b58" opacity="1"/>
+<text x="1400.0" y="966.0" font-size="13" fill="#ef4b58" font-weight="700" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">10:30  incident</text>
+<text x="100.0" y="846.0" font-size="26" fill="#2fb8f0" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">189 min</text>
+<text x="100.0" y="864.0" font-size="12" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">earlier than the plant&#x27;s own alarm</text>
+<text x="100.0" y="896.0" font-size="26" fill="#35c08a" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">78.8%→0%</text>
+<text x="100.0" y="914.0" font-size="12" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">exposure left unwarned</text>
+<text x="100.0" y="946.0" font-size="26" fill="#35c08a" font-weight="800" text-anchor="start" font-family="'DejaVu Sans Mono',monospace" letter-spacing="0" opacity="1">0</text>
+<text x="100.0" y="964.0" font-size="12" fill="#93a3c4" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">false alerts, normal day</text>
+<text x="88.0" y="988.0" font-size="12.5" fill="#6a789c" font-weight="400" text-anchor="start" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">Every number is computed against labelled ground truth and re-asserted by the verification suite on every run.</text>
+<text x="1860.0" y="1032.0" font-size="12" fill="#6a789c" font-weight="400" text-anchor="end" font-family="'DejaVu Sans',Arial,sans-serif" letter-spacing="0" opacity="1">KAVACH · Team SlideHustlers · all plant data synthetic</text>
+</svg>

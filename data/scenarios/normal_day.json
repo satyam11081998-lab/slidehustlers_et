@@ -1,0 +1,66 @@
+{
+  "id": "normal_day",
+  "title": "Normal Operations — False-Positive Discipline Test",
+  "description": "A benign shift containing deliberately tempting co-occurrences: a confined-space entry with a proper multi-point gas test and stable readings, hot work far from classified zones, and a calibration-induced pressure spike that is fully explained by maintenance context. A naive alert-on-everything system would flag all three. Ground truth: zero hazard windows.",
+  "narrative": "The scenario that measures restraint. KAVACH is scored on false positives here — the metric that determines whether operators trust the system or mute it.",
+  "start_clock": "06:00",
+  "duration_min": 480,
+  "seed_salt": "normal-v1",
+  "shifts": [
+    { "name": "A", "label": "Morning Shift A (06:00–14:00)", "from": 0, "to": 480, "supervisor": "S. K. Murthy", "crew_count": 21 }
+  ],
+  "permits": [
+    {
+      "id": "CSE-2094", "type": "Confined Space Entry", "zone": "cob3_basement",
+      "title": "Battery 3 basement — annual structural inspection",
+      "from": 120, "to": 420, "crew": ["K. Venkat", "P. Suri", "A. Naidu"],
+      "gas_test": { "t": 105, "ref": "GT-1130", "result": "PASS", "detail": "Multi-point test: entrance CO 9 ppm, mid-chamber CO 11 ppm, rear CO 10 ppm, O2 20.9% throughout, H2S nil. Continuous monitor issued to crew." },
+      "isolations": ["Electrical LOTO applied", "Adjacent gas-main leg confirmed isolated and purged"]
+    },
+    {
+      "id": "HW-2102", "type": "Hot Work", "zone": "workshop",
+      "title": "Workshop — bracket fabrication welding",
+      "from": 180, "to": 420, "crew": ["S. Babu", "fire watch: L. Swamy"],
+      "gas_test": { "t": 175, "ref": "GT-1131", "result": "PASS", "detail": "Non-classified area. LEL 0%." },
+      "isolations": ["Fire blanket + extinguisher staged"]
+    }
+  ],
+  "work_orders": [
+    {
+      "id": "WO-8820", "title": "PT-GM-103 transmitter calibration check", "zone": "gm_corridor",
+      "kind": "preventive", "created": 60, "started": 230, "completed": 250,
+      "notes": "Scheduled annual calibration. Test pressure applied via hand pump — readings during 10:00–10:05 window are test artefacts, not process values."
+    }
+  ],
+  "ramps": [
+    { "sensor": "TT-CO4-501", "t0": 60, "t1": 200, "to": 1196 },
+    { "sensor": "TT-CO4-501", "t0": 200, "t1": 360, "to": 1174 },
+    { "sensor": "TT-CO3-506", "t0": 100, "t1": 260, "to": 1212 },
+    { "sensor": "FT-GM-601", "t0": 150, "t1": 240, "to": 12250 },
+    { "sensor": "FT-GM-601", "t0": 240, "t1": 380, "to": 11900 },
+
+    { "sensor": "PT-GM-103", "t0": 238, "t1": 240, "to": 10.0 },
+    { "sensor": "PT-GM-103", "t0": 245, "t1": 248, "to": 6.8 }
+  ],
+  "spikes": [
+    { "sensor": "GD-BPP-209", "t": 320, "to": 24, "duration": 10 }
+  ],
+  "events": [
+    { "t": 105, "type": "gas_test", "visible": true, "title": "Gas test GT-1130 for CSE-2094: PASS (multi-point)", "detail": "Entrance, mid-chamber and rear all tested. Continuous personal monitor issued to entry crew.", "zone": "cob3_basement", "severity": "info" },
+    { "t": 120, "type": "permit", "visible": true, "title": "Permit CSE-2094 activated — Confined Space Entry, Battery 3 basement", "detail": "Annual structural inspection. Crew of 3. Adjacent gas-main leg isolated and purged.", "zone": "cob3_basement", "severity": "info" },
+    { "t": 175, "type": "gas_test", "visible": true, "title": "Gas test GT-1131 for HW-2102: PASS", "detail": "Workshop, non-classified area. LEL 0%.", "zone": "workshop", "severity": "info" },
+    { "t": 180, "type": "permit", "visible": true, "title": "Permit HW-2102 activated — Hot Work, Maintenance Workshop", "detail": "Bracket fabrication welding. Fire watch posted. Nearest classified zone > 150 m.", "zone": "workshop", "severity": "info" },
+    { "t": 230, "type": "work_order", "visible": true, "title": "WO-8820 started — PT-GM-103 calibration", "detail": "Hand-pump test pressure will be applied. Readings 10:00–10:05 are test artefacts.", "zone": "gm_corridor", "sensor": "PT-GM-103", "severity": "info" },
+    { "t": 250, "type": "work_order", "visible": true, "title": "WO-8820 completed — PT-GM-103 back in service", "detail": "Calibration within tolerance. As-found/as-left records filed.", "zone": "gm_corridor", "sensor": "PT-GM-103", "severity": "info" },
+    { "t": 320, "type": "operator_log", "visible": true, "title": "Brief CO blip at GD-BPP-209 during tanker loading", "detail": "Known short venting during by-product tanker connection; dispersed within minutes. Standard operating condition.", "zone": "bpp", "sensor": "GD-BPP-209", "severity": "info" },
+    { "t": 420, "type": "permit", "visible": true, "title": "Permits CSE-2094 and HW-2102 closed out", "detail": "Work completed. Areas restored, sign-offs filed.", "severity": "info" }
+  ],
+  "ground_truth": {
+    "incident_at": null,
+    "hazard_onset": null,
+    "kavach_expected_alert": null,
+    "baseline_first_uncleared_alarm": null,
+    "hazard_windows": [],
+    "contributing_factors": []
+  }
+}

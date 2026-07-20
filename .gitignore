@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+.next/
+out/
+
+# Internal working notes & QA artefacts (not part of the submission)
+CONTEXT.md
+docs/qa/
+
+# Misc
+.DS_Store
+*.log
+.idea/
+.vscode/
+docs/nul
+eval_results.json
+data/scenarios/mc_*.json

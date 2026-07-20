@@ -1,0 +1,5 @@
+# Extras needed only to render the PDF report (the /api/report endpoint and the
+# core app do NOT need these — they return Markdown). Install on top of
+# backend/requirements.txt:  pip install -r reports/requirements.txt
+markdown>=3.5
+xhtml2pdf>=0.2.11

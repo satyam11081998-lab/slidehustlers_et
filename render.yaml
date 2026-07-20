@@ -1,0 +1,19 @@
+# Render blueprint — one-click backend deploy (WebSockets supported).
+#
+# Render runs the real FastAPI service, so the hosted control room gets the
+# genuine live stream (4 snapshots/sec) rather than the offline fallback.
+# Import this repo at https://render.com/deploy and Render reads this file.
+services:
+  - type: web
+    name: kavach-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      - key: KAVACH_DETERMINISTIC
+        value: "1"          # hosted demo stays deterministic; no API key needed
